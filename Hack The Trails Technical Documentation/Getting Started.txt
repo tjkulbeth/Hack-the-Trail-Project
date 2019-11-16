@@ -1,0 +1,25 @@
+It is highly recommended you use Anaconda and Jupyter notebooks for Problems 1 and 2 in order to quickly share and demonstrate your solutions.
+
+For your convenience, we've created two notebooks to help you get started on each problem. Do not feel bound to these starting points, but if you are not sure where to start, you should use them.
+
+To install Anaconda, see https://docs.anaconda.com/anaconda/install/
+
+For instructions on using Jupyter notebooks, see https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/
+
+To quickly install the environments to run each notebook, you can run:
+
+conda create -n trailsforecast python=3.7 numpy pandas plotly==3.10 scipy jupyter matplotlib statsmodels scikit-learn --yes
+conda activate trailsforecast
+jupyter notebook
+
+for problem 1 and
+
+conda config --prepend channels conda-forge
+conda create -n ox --strict-channel-priority osmnx
+conda activate ox
+conda install numpy matplotlib jupyter --yes
+jupyter notebook
+
+for problem 2 in the terminal/command prompt.
+
+Note that problem 1 shows the data sets required for forecasting, but problem 2 may also require higher resolution data found in "15min_all_trails_2018_2019.csv".

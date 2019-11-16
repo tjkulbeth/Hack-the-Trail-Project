@@ -1,5 +1,5 @@
 # Hack-the-Trail-Project
-Partnered with Walmart Technology as part of the Hack the Trail Hackathon Novemeber 2019
+Partnered with Walmart Technology as part of the Hack the Trail Hackathon November 2019
 
 ## About the Hack 
 
